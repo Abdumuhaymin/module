@@ -1,0 +1,12 @@
+import { a } from "./variables.js";
+import { b } from "./variables.js";
+import { c } from "./variables.js";
+import { x } from "./calc.js";
+let result = x(a, b, c);
+console.log(result);
+import { y } from "./func.js";
+let result2 = y(a, c);
+console.log(result2);
+import { User } from "./constfunc.js";
+let user = new User("Alisa", 32, "AI");
+console.log(user);
